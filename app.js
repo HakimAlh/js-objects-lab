@@ -29,7 +29,6 @@ Solve Exercise 3 here:
 */
 
 const difficulty = 'medium'
-console.log(game)
 
 
 /*
@@ -62,6 +61,7 @@ console.log('=================== POKEMON PARTY ====================')
 
 console.log(game.party);
 console.log('=================== -------- ====================')
+
 /*
 // Exercise 6
 // 1. Set the `completed` property to true for gyms with a difficulty below 3.
