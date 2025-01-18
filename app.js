@@ -18,7 +18,7 @@ const game = {
     ],
   }
 //   console.dir(pokemon, { maxArrayLength: null })
-// console.log(game)
+console.log(game)
 /*
 Exercise 3
 1. Add a new property to the `game` object. Let's call it "difficulty".
@@ -42,7 +42,8 @@ Solve Exercise 4 here:
 // const party = [] 
 // party.push = pokemon[24]
 // console.log(party)
-game.party = pokemon[24]; {
+game.party.push (pokemon[24]); {
+
 console.log('=================== POKEMON PARTY ====================')
 console.log(game.party)  //I chose Pikachu as a starter.
 console.log('=================== -------- ====================')
@@ -55,10 +56,11 @@ Exercise 5
 
 Solve Exercise 5 here:
 */
-game.party = pokemon[3]
+game.party.push (pokemon[3]);  //Charmander
+game.party.push (pokemon[15]); //Pidgey
+game.party.push (pokemon[5]);  //Charizard
 
 console.log('=================== POKEMON PARTY ====================')
-
 console.log(game.party);
 console.log('=================== -------- ====================')
 
@@ -70,8 +72,14 @@ console.log('=================== -------- ====================')
 
 // Solve Exercise 6 here:
 // */
+game.gyms.forEach(gym => {
+  if (game.gyms.difficulty <= 3) {
+return (game.gyms.completed === true);}
+})
 
-//  console.log(game(gym.completed))
+
+
+
 
 /*
 Exercise 7
