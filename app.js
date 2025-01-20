@@ -72,14 +72,11 @@ console.log('=================== -------- ====================')
 
 // Solve Exercise 6 here:
 // */
-game.gyms.forEach(gym => {
-  if (game.gyms.difficulty <= 3) {
-return (game.gyms.completed === true);}
+game.gyms.forEach((x) => {
+  if (x.difficulty < 3) {
+return (x.completed = true);}
 })
-
-
-
-
+console.log(game.gyms)
 
 /*
 Exercise 7
@@ -98,8 +95,8 @@ When working with an array of objects, the splice() array method is ideal for re
 
 Solve Exercise 7 here:
 */
-// game.splice(0, 0 , pokemon);
-// console.log(pokemon)
+game.party.splice(0, 1 , pokemon[25]); //0 means changes, 1 means replace
+console.log(game.party)
 
 /*
 Exercise 8
@@ -108,8 +105,8 @@ Exercise 8
 
 Solve Exercise 8 here:
 */
-// game.party.print();
-// console.log(print)
+game.party.print();
+console.log(print)
 
 /*
 Exercise 9
