@@ -105,8 +105,14 @@ Exercise 8
 
 Solve Exercise 8 here:
 */
-game.party.print();
-console.log(print)
+console.log('==============================')
+console.log(game.party[0])
+console.log(game.party[1])
+console.log(game.party[2])
+console.log(game.party[3])
+console.log('==============================')
+
+
 
 /*
 Exercise 9
@@ -116,8 +122,18 @@ Exercise 9
 
 Solve Exercise 9 here:
 */
+// pokemon.forEach((pokemon) => {
+//   console.log(pokemon.number);
+//   console.log(pokemon.name);
+//   console.log(pokemon.starter === true); //commenting it out to see the terminal better
 
 
+// });
+console.log('=========STARTER==========')
+console.log(pokemon[0].name)
+console.log(pokemon[3].name)
+console.log(pokemon[6].name)
+console.log('=========STARTER==========')
 /*
 Exercise 10
 1. Add a method called `catchPokemon` to the `game` object. This method should:
