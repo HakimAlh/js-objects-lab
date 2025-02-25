@@ -122,13 +122,12 @@ Exercise 9
 
 Solve Exercise 9 here:
 */
-// pokemon.forEach((pokemon) => {
-//   console.log(pokemon.number);
-//   console.log(pokemon.name);
-//   console.log(pokemon.starter === true); //commenting it out to see the terminal better
+
+//   const starterPokemon = pokemon.filter(() => {
+// })
 
 
-// });
+
 console.log('=========STARTER==========')
 console.log(pokemon[0].name)
 console.log(pokemon[3].name)
@@ -162,7 +161,10 @@ Also, log the `game.items` array to confirm that the pokeball quantity is being 
 
 Solve Exercise 11 here:
 */
-
+// catchPokemon.forEach((pokemon) => {
+//   pokemon - game.items
+// })
+// console.log(game.items)
 /*
 Exercise 12
 1. Similar to Exercise 6, now complete gyms with a difficulty below 6. How will you approach this?
