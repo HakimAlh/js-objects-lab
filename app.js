@@ -145,6 +145,10 @@ After writing this method, call it and pass in a Pokemon object of your choice f
 
 Solve Exercise 10 here:
 */
+const catchPokemon = [(pokemon[92].name), (pokemon[111].name), (pokemon[75].name)]
+console.log('=========CAUGHT POKEMONS==========')
+console.log(catchPokemon)
+console.log('=========CAUGHT POKEMONS==========')
 
 /*
 Exercise 11
